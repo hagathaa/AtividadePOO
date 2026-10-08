@@ -14,10 +14,6 @@ internal class Program
         {
             veiculo.Ligar();
             veiculo.Acelerar();
-           
         }
-
-        
-        
     }
 }

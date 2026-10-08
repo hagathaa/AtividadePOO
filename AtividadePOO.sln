@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atividade POO", "Atividade POO.csproj", "{89397387-7CBD-49B6-BC63-61C6E5A3A37F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtividadePOO", "AtividadePOO.csproj", "{89397387-7CBD-49B6-BC63-61C6E5A3A37F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

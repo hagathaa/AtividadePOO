@@ -1,29 +1,23 @@
-﻿using System.IO.Pipes;
+﻿namespace Atividade_POO;
 
-namespace Atividade_POO;
-
-public abstract class  Veiculo
+public abstract class Veiculo
 {
-    protected  Veiculo(string modelo, int ano)
+    protected Veiculo(string modelo, int ano)
     {
-    Modelo = modelo;
-    Ano = ano;
+        Modelo = modelo;
+        Ano = ano;
     }
-   public string Modelo { get; }
-   public int Ano { get; private set; }
 
-   public void Ligar()
-   {
-       Console.WriteLine($"{Modelo} esta Ligando...");
-   }
+    public string Modelo { get; private set; }
+    public int Ano { get; private set; }
 
-   public virtual void Acelerar()
-   {
-       Console.WriteLine($"{Modelo} esta Acelerando...");
-   }
-   
-   
-   
-   
-   
+    public void Ligar()
+    {
+        Console.WriteLine($"{Modelo} esta Ligando...");
+    }
+
+    public virtual void Acelerar()
+    {
+        Console.WriteLine($"{Modelo} esta Acelerando...");
+    }
 }
